@@ -176,7 +176,7 @@ a {
   justify-content: space-between;
 }
 
-.catalog-list .catalog-game {
+.game-item {
   width: 150px;
   margin-bottom: 10px;
   margin-right: 30px;
@@ -185,36 +185,36 @@ a {
   text-align: start;
 }
 
-.catalog-game:nth-child(6n) {
+.game-item:nth-child(6n) {
   margin-right: 0;
 }
 
-.catalog-game a {
+.game-item a {
   display: flex;
   flex-direction: column;
 }
 
-.catalog-game-title {
+.game-title {
   margin-top: 5px;
   order: 1;
   font-size: 16px;
   line-height: 21px;
 }
 
-.catalog-game-image {
+.game-image {
   border: 1px solid transparent;
   border-radius: 15px;
   object-fit: contain;
 }
 
-.catalog-game-tags {
+.game-tags {
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   text-transform: none;
 }
 
-.catalog-game-autor {
+.game-autor {
   padding: 5px 0;
   font-size: 14px;
   line-height: 16px;
@@ -224,17 +224,18 @@ a {
   align-items: center;
 }
 
-.catalog-game-autor img {
+.game-autor img {
   width: 20px;
   border: 1px solid transparent;
   border-radius: 50%;
 }
 
-.catalog-game-autor p {
+.game-autor p {
   padding-left: 5px;
 }
 
 .navigation-buttons {
+  padding-bottom: 20px;
   display: flex;
 }
 
@@ -250,27 +251,26 @@ a {
 /* New games */
 
 .new-games {
-  /* outline: 2px solid #0000ff; */
+  padding: 10px 0;
 }
 
 .new-games h2 {
   text-align: start;
-  /* outline: 2px solid #0000ff; */
 }
 
 .button-new-games {
+  margin-bottom: 10px;
   width: 100%;
 }
 
 /* Favourites games */
 
 .favourites-games {
-  /* outline: 2px solid #0000ff; */
+  padding: 10px 0;
 }
 
 .favourites-games h2 {
   text-align: start;
-  /* outline: 2px solid #0000ff; */
 }
 
 .navigation-buttons button {
@@ -284,26 +284,90 @@ a {
 
 /*** FOOTER ***/
 
-.main-footer {
-
+.footer {
+  padding: 50px;
+  text-align: start;
+  color: #ffffd6;
+  background-color: #010149;
 }
 
 .footer-container {
-
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto auto;
 }
 
-.footer-menu {
+/* Menu navigation */
 
+.footer-menu {
+  grid-row: 1 / -1;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-menu-item {
-
+  padding: 5px 20px;
+  color: #ffffff;
 }
+
+.footer-menu-item a {
+  color: #ffffd6;
+}
+
+/* Payment */
 
 .footer-payment {
-
+  grid-column: 2 / -1;
+  display: grid;
+  grid-template-rows: min-content auto;
 }
 
-.footer-contacts {
+.footer-payment h3 {
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+}
 
+.payment {
+  padding: 10px 0;
+  display: flex;
+  
+}
+
+.payment a {
+  padding: 10px 10px;
+  width: 150px;
+}
+
+.payment img {
+  
+}
+
+/* Contacts */
+
+.footer-contacts {
+  grid-column: -2 / -1;
+  text-align: end;
+  align-self: flex-end;
+  display: flex;
+}
+
+.footer-contacts h3 {
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.footer-contacts p {
+  padding: 5px 20px;
+  font-size: 18px;
+  font-style: italic;
 }
