@@ -77,9 +77,6 @@ a {
 
 /*** HEADER ***/
 
-.header {
-}
-
 .main-navigation {
   margin-top: 25px;
   display: grid;
@@ -102,13 +99,6 @@ a {
   margin: 0 20px;
 }
 
-.user-navigation {
-}
-
-.login-link {
-
-}
-
 /*** MAIN PAGE ***/
 
 .main-container {
@@ -122,20 +112,12 @@ a {
   margin-bottom: 20px;
 }
 
-.slider-list {
-  
-}
-
 .slider-list .slider-item {
   display: none;
 }
 
 .slider-list .slider-current {
   display: block;
-}
-
-.slider-item .slide {
-
 }
 
 .slide img {
@@ -346,10 +328,6 @@ a {
   width: 150px;
 }
 
-.payment img {
-  
-}
-
 /* Contacts */
 
 .footer-contacts {
@@ -374,58 +352,7 @@ a {
 
 /*** ADAPTATION ***/
 
-@media (max-width: 1200px) {
-  .wrapper {
-    width: 1010px;
-  }
-  
-  /*** HEADER ***/
-  
-  .site-navigation {
-    margin-left: 100px;
-  }
-    
-  /*** MAIN PAGE ***/
-  /* Catalog */
-  
-  .game-item:nth-child(6n) {
-    margin-right: 40px;
-  }
-  
-  .game-item:nth-child(5n) {
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 960px) {
-  .wrapper {
-    width: 820px;
-  }
-
-  /*** MAIN PAGE ***/
-  /* Catalog */  
- 
-  .game-item {
-    width: 150px;
-  }
-
-  .game-item:nth-child(5n) {
-    margin-right: 40px;
-  }
-
-  .game-item:nth-child(4n) {
-    margin-right: 0;
-  }
-
-  /*** FOOTER ***/
-  /* Payment */
-  
-  .footer-payment {
-    padding-left: 20px;
-  }
-}
-  
-@media (max-width: 699px) {
+@media (max-width: 1000px) {
   .wrapper {
     width: 600px;
   }
@@ -474,3 +401,33 @@ a {
     width: 120px;
   }
 }
+
+/* @media (max-width: 1050px) {
+  .wrapper {
+    width: 820px;
+  }
+
+
+ 
+  .game-item {
+    width: 150px;
+  }
+
+  .game-item:nth-child(5n) {
+    margin-right: 40px;
+  }
+
+  .game-item:nth-child(4n) {
+    margin-right: 0;
+  }
+
+
+  
+  .footer-payment {
+    padding-left: 20px;
+  }
+}
+  
+@media (max-width: 960px) {
+
+} */
