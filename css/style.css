@@ -58,7 +58,7 @@ a {
 }
 
 .wrapper {
-  width: 1200px;
+  /* width: 1200px; */
   height: 100%;
   margin: 0 auto;
   padding: 0;
@@ -72,7 +72,7 @@ a {
   grid-template-rows: min-content 1fr min-content;
   text-align: center;
   text-transform: uppercase;
-  background-color: #ffffd6;
+  /* background-color: #ffffd6; */
 }
 
 /*** HEADER ***/
@@ -102,6 +102,12 @@ a {
 /*** MAIN PAGE ***/
 
 .main-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapper-main {
   padding: 0 50px;
 }
 
@@ -267,10 +273,12 @@ a {
 /*** FOOTER ***/
 
 .footer {
+  margin: 20px 5px 0;
   padding: 50px;
   text-align: start;
-  color: #ffffd6;
-  background-color: #010149;
+  border-top: 2px solid #04048d;
+  /* color: #ffffd6; */
+  /* background-color: #010149; */
 }
 
 .footer-container {
@@ -295,11 +303,11 @@ a {
 
 .footer-menu-item {
   padding: 5px 20px;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 .footer-menu-item a {
-  color: #ffffd6;
+  /* color: #ffffd6; */
 }
 
 /* Payment */
