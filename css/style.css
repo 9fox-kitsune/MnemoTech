@@ -274,17 +274,18 @@ a {
 
 .footer {
   margin: 20px 5px 0;
-  padding: 50px;
   text-align: start;
   border-top: 2px solid #04048d;
   /* color: #ffffd6; */
   /* background-color: #010149; */
+  outline: 1px solid red;
 }
 
-.footer-container {
+.footer-main-container {
+  padding: 20px;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: 2fr 1fr;
+  outline: 1px solid red;
 }
 
 /* Menu navigation */
@@ -294,15 +295,18 @@ a {
   font-size: 18px;
   font-weight: 400;
   text-transform: none;
+  outline: 1px solid red;
 }
 
 .footer-menu-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* flex-direction: column; */
 }
 
 .footer-menu-item {
   padding: 5px 20px;
+  outline: 1px solid red;
   /* color: #ffffff; */
 }
 
@@ -336,6 +340,24 @@ a {
   width: 150px;
 }
 
+.footer-support-container {
+  display: flex;
+  /* justify-content: space-between; */
+  outline: 1px solid red;
+}
+
+/* Support */
+
+.menu-support {
+  
+}
+
+.menu-support-list {
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid red;
+}
+
 /* Contacts */
 
 .footer-contacts {
@@ -343,6 +365,7 @@ a {
   justify-self: end;
   align-self: flex-end;
   display: flex;
+  outline: 1px solid red;
 }
 
 .footer-contacts h3 {
