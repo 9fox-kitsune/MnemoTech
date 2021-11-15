@@ -106,7 +106,7 @@ a {
   justify-self: end;
 }
 
-/*** MAIN PAGE ***/
+                          /*** MAIN PAGE ***/
 
 .main-container {
   width: 1200px;
@@ -385,7 +385,12 @@ a {
   text-transform: none;
 }
 
-/*** ADAPTATION ***/
+                        /***  ABOUT.HTML  ***/
+
+
+
+
+                         /*** ADAPTATION ***/
 
 /* @media (max-width: 1000px) {
   .wrapper {
