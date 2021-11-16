@@ -70,8 +70,20 @@ a {
   color: #04048d;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
-  text-align: center;
+  
   text-transform: uppercase;
+}
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapper-standard {
+  padding: 0 50px;
+  text-align: start;
+  display: grid;
 }
 
 /*** HEADER ***/
@@ -108,21 +120,12 @@ a {
 
                           /*** MAIN PAGE ***/
 
-.main-container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.wrapper-main {
-  padding: 0 50px;
-}
-
 /* Slaider */
 
 .slider {
   margin-top: 10px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .slider-list .slider-item {
@@ -385,10 +388,37 @@ a {
   text-transform: none;
 }
 
+                        /***  STANDART PAGES  ***/
+
+.wrapper-standard {
+  /* outline: 1px solid red; */
+}
+
+.page-title {
+  padding: 30px 0 10px;
+  /* outline: 1px solid red; */
+}
+
+.wrapper-standard h2 {
+  margin: 0;
+  padding: 20px 0;
+  /* outline: 1px solid red; */
+}
+
                         /***  ABOUT.HTML  ***/
 
+.project-history {
+  /* outline: 1px solid red; */
+}
 
+.our-team {
+  /* outline: 1px solid red; */
+}
 
+.for-partners {
+
+  /* outline: 1px solid red; */
+}
 
                          /*** ADAPTATION ***/
 
