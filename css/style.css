@@ -72,6 +72,9 @@ a {
   grid-template-rows: min-content 1fr min-content;
   text-transform: uppercase;
   background-image: url(../img/background/2.png);
+  /* background-position: center, 0 0; */
+  background-repeat: no-repeat, repeat;
+
 }
 
 .main-container {
