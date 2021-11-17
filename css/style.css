@@ -388,7 +388,7 @@ a {
   text-transform: none;
 }
 
-                        /***  STANDART PAGES  ***/
+                  /***  GLOBAL FOR STANDART PAGES  ***/
 
 .wrapper-standard {
   /* outline: 1px solid red; */
@@ -420,6 +420,12 @@ a {
   /* outline: 1px solid red; */
 }
 
+                         /*** HELP.HTML ***/
+
+
+
+
+                         
                          /*** ADAPTATION ***/
 
 /* @media (max-width: 1000px) {
