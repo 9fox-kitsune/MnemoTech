@@ -71,7 +71,7 @@ a {
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   text-transform: uppercase;
-  background-image: url(../img/background/1.png);
+  background-image: url(../img/background/2.png);
 }
 
 .main-container {
