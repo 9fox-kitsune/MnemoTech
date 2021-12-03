@@ -110,14 +110,14 @@ a {
 }
 
 .site-navigation {
-  margin-left: 280px;
+  margin-left: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
 
 .column-menu {
-  margin: 0 20px;
+  margin: 0 10px;
   padding: 0 30px;
   background-color: #eeeeee;
   border: 2px solid #ffffff;
