@@ -121,8 +121,8 @@ a {
   padding: 0 30px;
   background-color: #eeeeee;
   border: 2px solid #ffffff;
-  /* border-radius: 100px; */
-  border-radius: 15px 100px 15px 100px;
+  border-radius: 100px;
+  /* border-radius: 15px 100px 15px 100px; */
 }
 
 .user-navigation {
